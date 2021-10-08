@@ -5,32 +5,30 @@ import java.util.Scanner;
 
 public class Do_while {
 
-    public void do_while(){
+    public void do_while() {
         int sum = 0;
         int i = 0;
-        do{
-            if(i % 2 ==1) {
+        do {
+            if (i % 2 == 1) {
                 sum += i + 1;
 
                 System.out.print(i + " ");
             }
             i++;
-        } while(i < 30);
-        System.out.println("The sum is: " +sum + " "+ i);
+        } while (i < 30);
+        System.out.println("The sum is: " + sum + " " + i);
     }
 
-    public void reWrite(){
+    public void reWrite() {
         int count = 0;
         int sum = 0;
-        do{
+        do {
             sum += count;
             count++;
-            System.out.print(count +" ");
-        } while(count < 10);
+            System.out.print(count + " ");
+        } while (count < 10);
         System.out.println("The sum is: " + sum);
     }
-
-
 
     public static void main(String[] args) {
         Do_while firstDo = new Do_while();
@@ -91,15 +89,14 @@ public class Do_while {
 
             //Make sure you understand this it could be in test
             int x = 0;
-            while(x < 10){
+            while (x < 10) {
 
-                if(x == 5) {
+                if (x == 5) {
                     x++;
                     continue;
                 }
-                    System.out.println(x);
-                    x++;
-
+                System.out.println(x);
+                x++;
             }
         }
     }
@@ -121,7 +118,7 @@ public class Do_while {
 
                 outPut = year + " This is not a Leap year sorry!";
             }
-         return outPut;
+            return outPut;
         }
 
         public static void main(String[] args) {
@@ -138,7 +135,7 @@ public class Do_while {
 
     public static class Sample {
         public static void main(String[] args) {
-    int a = 2, b = 4, c = 6, d = 8, x = 10, y = 12, z = 14;
+            int a = 2, b = 4, c = 6, d = 8, x = 10, y = 12, z = 14;
             //if(a<b)x=y;if(a<c)x=z; else if( c < d ) z = y;
 
             if (a < b) {
@@ -167,9 +164,9 @@ public class Do_while {
 
                 for (int column = 0; column < 4; column++) {
 
-    //                third = random.nextInt(2) + 1;
-    //                fourth = random.nextInt(2) + 1;
-    //               System.out.print("(" + third + "," + fourth + ")");
+                    //                third = random.nextInt(2) + 1;
+                    //                fourth = random.nextInt(2) + 1;
+                    //               System.out.print("(" + third + "," + fourth + ")");
                     System.out.print("(" + raw + "," + column + ")");
                 }
                 System.out.println();
@@ -211,36 +208,33 @@ public class Do_while {
 
                 if (status.equals("Married")) {
                     if (salary > 60000) {
-                        System.out.println(HIGH_TAX);;
+                        System.out.println(HIGH_TAX);
+                        ;
 
                     } else {
                         System.out.println(NORMAL_TAX);
-
-
                     }
 
                 }
             }
 
         }
-            public static void main (String[]args){
 
-                System.out.println("Please enter your martial status");
-                Scanner checkStatus = new Scanner(System.in);
-                String statusInput = checkStatus.next();
-                double salaryInput = checkStatus.nextInt();
+        public static void main(String[] args) {
 
+            System.out.println("Please enter your martial status");
+            Scanner checkStatus = new Scanner(System.in);
+            String statusInput = checkStatus.next();
+            double salaryInput = checkStatus.nextInt();
 
-                ExerciseIf person1 = new ExerciseIf();
+            ExerciseIf person1 = new ExerciseIf();
 
-               person1.calcTaxRate(statusInput, salaryInput);
+            person1.calcTaxRate(statusInput, salaryInput);
 
-
-            }
         }
+    }
 
     public static class NestedIfTable {
-
 
         public void print() {
             int num = 10;
@@ -258,14 +252,13 @@ public class Do_while {
 
         public static void main(String[] args) {
 
-    //        System.out.println("Please enter a number");
-    //        Scanner numberInput = new Scanner(System.in);
-    //        int number = numberInput.nextInt();
+            //        System.out.println("Please enter a number");
+            //        Scanner numberInput = new Scanner(System.in);
+            //        int number = numberInput.nextInt();
 
             NestedIfTable newInput = new NestedIfTable();
             newInput.print();
 
         }
-
     }
 }
