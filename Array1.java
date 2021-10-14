@@ -2,7 +2,7 @@ package Experiment.Personal_Lab;
 
 import java.util.Scanner;
 
-public class Array {
+public class Array1 {
     public static void main(String[] args) {
 
 
