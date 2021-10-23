@@ -3,6 +3,7 @@ package Experiment.Personal_Lab.Exam_Paper;
 import java.util.Scanner;
 
 public class Check {
+
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

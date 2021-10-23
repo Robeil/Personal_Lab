@@ -3,7 +3,9 @@ package Experiment.Personal_Lab.Exam_Paper;
 import java.util.Scanner;
 
 public class Exercise {
+
     public static void main(String[] args) {
+
         System.out.println("Please enter any number");
         Scanner userInput = new Scanner(System.in);
         int number = userInput.nextInt();

@@ -16,7 +16,7 @@ public class SPA_Array {
         for(int i = 0; i < length; i++){
             newValues[i] += input.nextInt();
             sum += newValues[i];
-            product += newValues[i];
+            product *= newValues[i];
 
         }
         average = sum / newValues.length;

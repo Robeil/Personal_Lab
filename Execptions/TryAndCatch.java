@@ -3,7 +3,9 @@ package Experiment.Personal_Lab.Execptions;
 import java.util.Scanner;
 
 public class TryAndCatch {
+
     public static void main(String[] args) {
+
         System.out.println("Hey there, Please enter only number");
         Scanner input = new Scanner(System.in);
 
@@ -16,8 +18,5 @@ public class TryAndCatch {
             System.out.println(e.getMessage());
 
         }
-
-
-
     }
 }
